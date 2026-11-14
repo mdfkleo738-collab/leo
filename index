@@ -1,0 +1,408 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/1999/REC-html401-19991224/strict.dtd">
+<html>
+<head>
+<META http-equiv=Content-Type content="text/html; charset=UTF-8">
+<title>Exported from Notepad++</title>
+<style type="text/css">
+span {
+	font-family: 'Courier New';
+	font-size: 10pt;
+	color: #000000;
+}
+.sc0 {
+	font-weight: bold;
+}
+.sc1 {
+	color: #0000FF;
+}
+.sc2 {
+}
+.sc3 {
+	color: #FF0000;
+}
+.sc4 {
+}
+.sc6 {
+	font-weight: bold;
+	color: #8000FF;
+}
+.sc8 {
+}
+.sc9 {
+	color: #008000;
+}
+.sc10 {
+	font-style: italic;
+	background: #FEFDE0;
+}
+.sc11 {
+	color: #0000FF;
+}
+.sc21 {
+	background: #CFE2F7;
+}
+.sc22 {
+	font-weight: bold;
+	color: #0000DD;
+	background: #CFE2F7;
+}
+.sc23 {
+	color: #0000DD;
+	background: #ECF4FC;
+}
+.sc40 {
+}
+.sc41 {
+	background: #F2F4FF;
+}
+.sc43 {
+	color: #008000;
+	background: #F2F4FF;
+}
+.sc45 {
+	color: #FF0000;
+	background: #F2F4FF;
+}
+.sc46 {
+	background: #F2F4FF;
+}
+.sc47 {
+	font-weight: bold;
+	font-style: italic;
+	color: #000080;
+	background: #F2F4FF;
+}
+.sc48 {
+	color: #808080;
+	background: #F2F4FF;
+}
+.sc49 {
+	color: #808080;
+	background: #F2F4FF;
+}
+.sc50 {
+	font-weight: bold;
+	background: #F2F4FF;
+}
+</style>
+</head>
+<body>
+<div style="float: left; white-space: pre; line-height: 1; background: #FFFFFF; "><span class="sc21">&lt;!</span><span class="sc22">DOCTYPE</span><span class="sc21"> </span><span class="sc23">html</span><span class="sc21">&gt;</span><span class="sc0">
+</span><span class="sc1">&lt;html</span><span class="sc8"> </span><span class="sc3">lang</span><span class="sc8">=</span><span class="sc6">"es"</span><span class="sc1">&gt;</span><span class="sc0">
+</span><span class="sc1">&lt;head&gt;</span><span class="sc0">
+    </span><span class="sc1">&lt;meta</span><span class="sc8"> </span><span class="sc3">charset</span><span class="sc8">=</span><span class="sc6">"UTF-8"</span><span class="sc1">&gt;</span><span class="sc0">
+    </span><span class="sc1">&lt;meta</span><span class="sc8"> </span><span class="sc3">name</span><span class="sc8">=</span><span class="sc6">"viewport"</span><span class="sc8"> </span><span class="sc3">content</span><span class="sc8">=</span><span class="sc6">"width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"</span><span class="sc1">&gt;</span><span class="sc0">
+    </span><span class="sc1">&lt;title&gt;</span><span class="sc0">SPIC TRANSPORTES - Campo</span><span class="sc1">&lt;/title&gt;</span><span class="sc0">
+    </span><span class="sc9">&lt;!-- Tailwind CSS --&gt;</span><span class="sc0">
+    </span><span class="sc1">&lt;script</span><span class="sc8"> </span><span class="sc3">src</span><span class="sc8">=</span><span class="sc6">"https://cdn.tailwindcss.com"</span><span class="sc1">&gt;&lt;/script&gt;</span><span class="sc0">
+    </span><span class="sc9">&lt;!-- React &amp; ReactDOM --&gt;</span><span class="sc0">
+    </span><span class="sc1">&lt;script</span><span class="sc8"> </span><span class="sc4">crossorigin</span><span class="sc8"> </span><span class="sc3">src</span><span class="sc8">=</span><span class="sc6">"https://unpkg.com/react@18/umd/react.development.js"</span><span class="sc1">&gt;&lt;/script&gt;</span><span class="sc0">
+    </span><span class="sc1">&lt;script</span><span class="sc8"> </span><span class="sc4">crossorigin</span><span class="sc8"> </span><span class="sc3">src</span><span class="sc8">=</span><span class="sc6">"https://unpkg.com/react-dom@18/umd/react-dom.js"</span><span class="sc1">&gt;&lt;/script&gt;</span><span class="sc0">
+    </span><span class="sc9">&lt;!-- Babel Standalone --&gt;</span><span class="sc0">
+    </span><span class="sc1">&lt;script</span><span class="sc8"> </span><span class="sc3">src</span><span class="sc8">=</span><span class="sc6">"https://unpkg.com/@babel/standalone/babel.min.js"</span><span class="sc1">&gt;&lt;/script&gt;</span><span class="sc0">
+    </span><span class="sc9">&lt;!-- Leaflet CSS &amp; JS --&gt;</span><span class="sc0">
+    </span><span class="sc1">&lt;link</span><span class="sc8"> </span><span class="sc3">rel</span><span class="sc8">=</span><span class="sc6">"stylesheet"</span><span class="sc8"> </span><span class="sc3">href</span><span class="sc8">=</span><span class="sc6">"https://unpkg.com/leaflet@19.4.0/dist/leaflet.css"</span><span class="sc8"> </span><span class="sc4">integrity</span><span class="sc8">=</span><span class="sc6">"sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="</span><span class="sc8"> </span><span class="sc4">crossorigin</span><span class="sc8">=</span><span class="sc6">""</span><span class="sc8"> </span><span class="sc11">/&gt;</span><span class="sc0">
+    </span><span class="sc1">&lt;script</span><span class="sc8"> </span><span class="sc3">src</span><span class="sc8">=</span><span class="sc6">"https://unpkg.com/leaflet@19.4.0/dist/leaflet.js"</span><span class="sc8"> </span><span class="sc4">integrity</span><span class="sc8">=</span><span class="sc6">"sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="</span><span class="sc8"> </span><span class="sc4">crossorigin</span><span class="sc8">=</span><span class="sc6">""</span><span class="sc1">&gt;&lt;/script&gt;</span><span class="sc0">
+    </span><span class="sc9">&lt;!-- SheetJS (xlsx) --&gt;</span><span class="sc0">
+    </span><span class="sc1">&lt;script</span><span class="sc8"> </span><span class="sc3">src</span><span class="sc8">=</span><span class="sc6">"https://cdn.jsdelivr.net/npm/xlsx@0.18.5/dist/xlsx.full.min.js"</span><span class="sc1">&gt;&lt;/script&gt;</span><span class="sc0">
+   
+    </span><span class="sc9">&lt;!-- Firebase SDK (Modular v13.3.0 - Realtime Database &amp; Storage) --&gt;</span><span class="sc0">
+    </span><span class="sc1">&lt;script</span><span class="sc8"> </span><span class="sc3">type</span><span class="sc8">=</span><span class="sc6">"module"</span><span class="sc1">&gt;</span><span class="sc40">
+</span><span class="sc41">      </span><span class="sc47">import</span><span class="sc41"> </span><span class="sc50">{</span><span class="sc41"> </span><span class="sc46">initializeApp</span><span class="sc41"> </span><span class="sc50">}</span><span class="sc41"> </span><span class="sc46">from</span><span class="sc41"> </span><span class="sc48">"https://www.gstatic.com/firebasejs/13.3.0/firebase-app.js"</span><span class="sc50">;</span><span class="sc41">
+      </span><span class="sc47">import</span><span class="sc41"> </span><span class="sc50">{</span><span class="sc41"> </span><span class="sc46">getAnalytics</span><span class="sc41"> </span><span class="sc50">}</span><span class="sc41"> </span><span class="sc46">from</span><span class="sc41"> </span><span class="sc48">"https://www.gstatic.com/firebasejs/13.3.0/firebase-analytics.js"</span><span class="sc50">;</span><span class="sc41">
+      </span><span class="sc47">import</span><span class="sc41"> </span><span class="sc50">{</span><span class="sc41"> </span><span class="sc46">getDatabase</span><span class="sc50">,</span><span class="sc41"> </span><span class="sc46">ref</span><span class="sc50">,</span><span class="sc41"> </span><span class="sc46">set</span><span class="sc50">,</span><span class="sc41"> </span><span class="sc46">onValue</span><span class="sc50">,</span><span class="sc41"> </span><span class="sc46">push</span><span class="sc50">,</span><span class="sc41"> </span><span class="sc46">remove</span><span class="sc41"> </span><span class="sc50">}</span><span class="sc41"> </span><span class="sc46">from</span><span class="sc41"> </span><span class="sc48">"https://www.gstatic.com/firebasejs/13.3.0/firebase-database.js"</span><span class="sc50">;</span><span class="sc41">
+      </span><span class="sc47">import</span><span class="sc41"> </span><span class="sc50">{</span><span class="sc41"> </span><span class="sc46">getStorage</span><span class="sc50">,</span><span class="sc41"> </span><span class="sc46">ref</span><span class="sc41"> </span><span class="sc46">as</span><span class="sc41"> </span><span class="sc46">sRef</span><span class="sc50">,</span><span class="sc41"> </span><span class="sc46">uploadBytes</span><span class="sc50">,</span><span class="sc41"> </span><span class="sc46">getDownloadURL</span><span class="sc41"> </span><span class="sc50">}</span><span class="sc41"> </span><span class="sc46">from</span><span class="sc41"> </span><span class="sc48">"https://www.gstatic.com/firebasejs/13.3.0/firebase-storage.js"</span><span class="sc50">;</span><span class="sc41">
+
+      </span><span class="sc47">const</span><span class="sc41"> </span><span class="sc46">firebaseConfig</span><span class="sc41"> </span><span class="sc50">=</span><span class="sc41"> </span><span class="sc50">{</span><span class="sc41">
+        </span><span class="sc46">apiKey</span><span class="sc50">:</span><span class="sc41"> </span><span class="sc48">"AIzaSyAYRCBO093ZjBfvHU_G7XQfvmIAy6-tk8k"</span><span class="sc50">,</span><span class="sc41">
+        </span><span class="sc46">authDomain</span><span class="sc50">:</span><span class="sc41"> </span><span class="sc48">"spic-transporte.firebaseapp.com"</span><span class="sc50">,</span><span class="sc41">
+        </span><span class="sc46">databaseURL</span><span class="sc50">:</span><span class="sc41"> </span><span class="sc48">"https://spic-transporte-default-rtdb.firebaseio.com"</span><span class="sc50">,</span><span class="sc41">
+        </span><span class="sc46">projectId</span><span class="sc50">:</span><span class="sc41"> </span><span class="sc48">"spic-transporte"</span><span class="sc50">,</span><span class="sc41">
+        </span><span class="sc46">storageBucket</span><span class="sc50">:</span><span class="sc41"> </span><span class="sc48">"spic-transporte.firebasestorage.app"</span><span class="sc50">,</span><span class="sc41">
+        </span><span class="sc46">messagingSenderId</span><span class="sc50">:</span><span class="sc41"> </span><span class="sc48">"971814290451"</span><span class="sc50">,</span><span class="sc41">
+        </span><span class="sc46">appId</span><span class="sc50">:</span><span class="sc41"> </span><span class="sc48">"1:971814290451:web:88e18c3014ec4330cdebe6"</span><span class="sc50">,</span><span class="sc41">
+        </span><span class="sc46">measurementId</span><span class="sc50">:</span><span class="sc41"> </span><span class="sc48">"G-42KXE9X3X0"</span><span class="sc41">
+      </span><span class="sc50">};</span><span class="sc41">
+
+      </span><span class="sc47">const</span><span class="sc41"> </span><span class="sc46">app</span><span class="sc41"> </span><span class="sc50">=</span><span class="sc41"> </span><span class="sc46">initializeApp</span><span class="sc50">(</span><span class="sc46">firebaseConfig</span><span class="sc50">);</span><span class="sc41">
+      </span><span class="sc47">const</span><span class="sc41"> </span><span class="sc46">analytics</span><span class="sc41"> </span><span class="sc50">=</span><span class="sc41"> </span><span class="sc46">getAnalytics</span><span class="sc50">(</span><span class="sc46">app</span><span class="sc50">);</span><span class="sc41">
+      </span><span class="sc47">const</span><span class="sc41"> </span><span class="sc46">db</span><span class="sc41"> </span><span class="sc50">=</span><span class="sc41"> </span><span class="sc46">getDatabase</span><span class="sc50">(</span><span class="sc46">app</span><span class="sc50">);</span><span class="sc41">
+      </span><span class="sc47">const</span><span class="sc41"> </span><span class="sc46">storage</span><span class="sc41"> </span><span class="sc50">=</span><span class="sc41"> </span><span class="sc46">getStorage</span><span class="sc50">(</span><span class="sc46">app</span><span class="sc50">);</span><span class="sc41">
+
+      </span><span class="sc46">window.spicFirebase</span><span class="sc41"> </span><span class="sc50">=</span><span class="sc41"> </span><span class="sc50">{</span><span class="sc41">
+        </span><span class="sc46">db</span><span class="sc50">,</span><span class="sc41"> </span><span class="sc46">storage</span><span class="sc50">,</span><span class="sc41"> </span><span class="sc46">ref</span><span class="sc50">,</span><span class="sc41"> </span><span class="sc46">set</span><span class="sc50">,</span><span class="sc41"> </span><span class="sc46">onValue</span><span class="sc50">,</span><span class="sc41"> </span><span class="sc46">push</span><span class="sc50">,</span><span class="sc41"> </span><span class="sc46">remove</span><span class="sc50">,</span><span class="sc41"> </span><span class="sc46">sRef</span><span class="sc50">,</span><span class="sc41"> </span><span class="sc46">uploadBytes</span><span class="sc50">,</span><span class="sc41"> </span><span class="sc46">getDownloadURL</span><span class="sc41">
+      </span><span class="sc50">};</span><span class="sc41">
+      </span><span class="sc46">console.log</span><span class="sc50">(</span><span class="sc48">"SPIC Firebase sincronizado correctamente para campo."</span><span class="sc50">);</span><span class="sc41">
+    </span><span class="sc1">&lt;/script&gt;</span><span class="sc0">
+
+    </span><span class="sc1">&lt;style&gt;</span><span class="sc0">
+      body { user-select: none; -webkit-tap-highlight-color: transparent; }
+      .leaflet-container { width: 100%; height: 100%; z-index: 10; }
+    </span><span class="sc1">&lt;/style&gt;</span><span class="sc0">
+</span><span class="sc1">&lt;/head&gt;</span><span class="sc0">
+</span><span class="sc1">&lt;body</span><span class="sc8"> </span><span class="sc3">class</span><span class="sc8">=</span><span class="sc6">"bg-slate-950 text-slate-100 font-sans antialiased"</span><span class="sc1">&gt;</span><span class="sc0">
+    </span><span class="sc1">&lt;div</span><span class="sc8"> </span><span class="sc3">id</span><span class="sc8">=</span><span class="sc6">"root"</span><span class="sc1">&gt;&lt;/div&gt;</span><span class="sc0">
+
+    </span><span class="sc1">&lt;script</span><span class="sc8"> </span><span class="sc3">type</span><span class="sc8">=</span><span class="sc6">"text/babel"</span><span class="sc1">&gt;</span><span class="sc40">
+</span><span class="sc41">        </span><span class="sc47">function</span><span class="sc41"> </span><span class="sc46">App</span><span class="sc50">()</span><span class="sc41"> </span><span class="sc50">{</span><span class="sc41">
+            </span><span class="sc47">const</span><span class="sc41"> </span><span class="sc50">[</span><span class="sc46">role</span><span class="sc50">,</span><span class="sc41"> </span><span class="sc46">setRole</span><span class="sc50">]</span><span class="sc41"> </span><span class="sc50">=</span><span class="sc41"> </span><span class="sc46">React.useState</span><span class="sc50">(</span><span class="sc47">null</span><span class="sc50">);</span><span class="sc41"> </span><span class="sc43">// 'admin', 'chofer', 'pasajero'</span><span class="sc41">
+            </span><span class="sc47">const</span><span class="sc41"> </span><span class="sc50">[</span><span class="sc46">usersDB</span><span class="sc50">,</span><span class="sc41"> </span><span class="sc46">setUsersDB</span><span class="sc50">]</span><span class="sc41"> </span><span class="sc50">=</span><span class="sc41"> </span><span class="sc46">React.useState</span><span class="sc50">([</span><span class="sc41">
+                </span><span class="sc50">{</span><span class="sc41"> </span><span class="sc46">name</span><span class="sc50">:</span><span class="sc41"> </span><span class="sc49">'Admin General'</span><span class="sc50">,</span><span class="sc41"> </span><span class="sc46">role</span><span class="sc50">:</span><span class="sc41"> </span><span class="sc49">'admin'</span><span class="sc50">,</span><span class="sc41"> </span><span class="sc46">pin</span><span class="sc50">:</span><span class="sc41"> </span><span class="sc49">'1234'</span><span class="sc41"> </span><span class="sc50">},</span><span class="sc41">
+                </span><span class="sc50">{</span><span class="sc41"> </span><span class="sc46">name</span><span class="sc50">:</span><span class="sc41"> </span><span class="sc49">'Carlos Chofer'</span><span class="sc50">,</span><span class="sc41"> </span><span class="sc46">role</span><span class="sc50">:</span><span class="sc41"> </span><span class="sc49">'chofer'</span><span class="sc50">,</span><span class="sc41"> </span><span class="sc46">pin</span><span class="sc50">:</span><span class="sc41"> </span><span class="sc49">'5678'</span><span class="sc50">,</span><span class="sc41"> </span><span class="sc46">unit</span><span class="sc50">:</span><span class="sc41"> </span><span class="sc49">'Unidad 101'</span><span class="sc41"> </span><span class="sc50">},</span><span class="sc41">
+                </span><span class="sc50">{</span><span class="sc41"> </span><span class="sc46">name</span><span class="sc50">:</span><span class="sc41"> </span><span class="sc49">'Maria Pasajera'</span><span class="sc50">,</span><span class="sc41"> </span><span class="sc46">role</span><span class="sc50">:</span><span class="sc41"> </span><span class="sc49">'pasajero'</span><span class="sc50">,</span><span class="sc41"> </span><span class="sc46">pin</span><span class="sc50">:</span><span class="sc41"> </span><span class="sc49">'0000'</span><span class="sc41"> </span><span class="sc50">}</span><span class="sc41">
+            </span><span class="sc50">]);</span><span class="sc41">
+            </span><span class="sc47">const</span><span class="sc41"> </span><span class="sc50">[</span><span class="sc46">currentUser</span><span class="sc50">,</span><span class="sc41"> </span><span class="sc46">setCurrentUser</span><span class="sc50">]</span><span class="sc41"> </span><span class="sc50">=</span><span class="sc41"> </span><span class="sc46">React.useState</span><span class="sc50">(</span><span class="sc47">null</span><span class="sc50">);</span><span class="sc41">
+            </span><span class="sc47">const</span><span class="sc41"> </span><span class="sc50">[</span><span class="sc46">authMode</span><span class="sc50">,</span><span class="sc41"> </span><span class="sc46">setAuthMode</span><span class="sc50">]</span><span class="sc41"> </span><span class="sc50">=</span><span class="sc41"> </span><span class="sc46">React.useState</span><span class="sc50">(</span><span class="sc49">'login'</span><span class="sc50">);</span><span class="sc41"> </span><span class="sc43">// 'login' o 'register'</span><span class="sc41">
+            </span><span class="sc47">const</span><span class="sc41"> </span><span class="sc50">[</span><span class="sc46">inputName</span><span class="sc50">,</span><span class="sc41"> </span><span class="sc46">setInputName</span><span class="sc50">]</span><span class="sc41"> </span><span class="sc50">=</span><span class="sc41"> </span><span class="sc46">React.useState</span><span class="sc50">(</span><span class="sc49">''</span><span class="sc50">);</span><span class="sc41">
+            </span><span class="sc47">const</span><span class="sc41"> </span><span class="sc50">[</span><span class="sc46">inputPin</span><span class="sc50">,</span><span class="sc41"> </span><span class="sc46">setInputPin</span><span class="sc50">]</span><span class="sc41"> </span><span class="sc50">=</span><span class="sc41"> </span><span class="sc46">React.useState</span><span class="sc50">(</span><span class="sc49">''</span><span class="sc50">);</span><span class="sc41">
+            </span><span class="sc47">const</span><span class="sc41"> </span><span class="sc50">[</span><span class="sc46">inputRole</span><span class="sc50">,</span><span class="sc41"> </span><span class="sc46">setInputRole</span><span class="sc50">]</span><span class="sc41"> </span><span class="sc50">=</span><span class="sc41"> </span><span class="sc46">React.useState</span><span class="sc50">(</span><span class="sc49">'pasajero'</span><span class="sc50">);</span><span class="sc41">
+            </span><span class="sc47">const</span><span class="sc41"> </span><span class="sc50">[</span><span class="sc46">inputUnit</span><span class="sc50">,</span><span class="sc41"> </span><span class="sc46">setInputUnit</span><span class="sc50">]</span><span class="sc41"> </span><span class="sc50">=</span><span class="sc41"> </span><span class="sc46">React.useState</span><span class="sc50">(</span><span class="sc49">'Unidad 101'</span><span class="sc50">);</span><span class="sc41">
+            </span><span class="sc47">const</span><span class="sc41"> </span><span class="sc50">[</span><span class="sc46">errorMsg</span><span class="sc50">,</span><span class="sc41"> </span><span class="sc46">setErrorMsg</span><span class="sc50">]</span><span class="sc41"> </span><span class="sc50">=</span><span class="sc41"> </span><span class="sc46">React.useState</span><span class="sc50">(</span><span class="sc49">''</span><span class="sc50">);</span><span class="sc41">
+
+            </span><span class="sc43">// Estados globales sincronizados</span><span class="sc41">
+            </span><span class="sc47">const</span><span class="sc41"> </span><span class="sc50">[</span><span class="sc46">routes</span><span class="sc50">,</span><span class="sc41"> </span><span class="sc46">setRoutes</span><span class="sc50">]</span><span class="sc41"> </span><span class="sc50">=</span><span class="sc41"> </span><span class="sc46">React.useState</span><span class="sc50">([</span><span class="sc41">
+                </span><span class="sc50">{</span><span class="sc41"> </span><span class="sc46">id</span><span class="sc50">:</span><span class="sc41"> </span><span class="sc45">1</span><span class="sc50">,</span><span class="sc41"> </span><span class="sc46">name</span><span class="sc50">:</span><span class="sc41"> </span><span class="sc49">'Ruta Norte - Centro'</span><span class="sc50">,</span><span class="sc41"> </span><span class="sc46">stops</span><span class="sc50">:</span><span class="sc41"> </span><span class="sc50">[</span><span class="sc49">'Terminal A'</span><span class="sc50">,</span><span class="sc41"> </span><span class="sc49">'Plaza Mayor'</span><span class="sc50">,</span><span class="sc41"> </span><span class="sc49">'Hospital Central'</span><span class="sc50">,</span><span class="sc41"> </span><span class="sc49">'Universidad'</span><span class="sc50">]</span><span class="sc41"> </span><span class="sc50">},</span><span class="sc41">
+                </span><span class="sc50">{</span><span class="sc41"> </span><span class="sc46">id</span><span class="sc50">:</span><span class="sc41"> </span><span class="sc45">2</span><span class="sc50">,</span><span class="sc41"> </span><span class="sc46">name</span><span class="sc50">:</span><span class="sc41"> </span><span class="sc49">'Ruta Sur - Industrial'</span><span class="sc50">,</span><span class="sc41"> </span><span class="sc46">stops</span><span class="sc50">:</span><span class="sc41"> </span><span class="sc50">[</span><span class="sc49">'Parque Industrial'</span><span class="sc50">,</span><span class="sc41"> </span><span class="sc49">'Estación Sur'</span><span class="sc50">,</span><span class="sc41"> </span><span class="sc49">'Centro Comercial'</span><span class="sc50">,</span><span class="sc41"> </span><span class="sc49">'Depósito'</span><span class="sc50">]</span><span class="sc41"> </span><span class="sc50">}</span><span class="sc41">
+            </span><span class="sc50">]);</span><span class="sc41">
+            </span><span class="sc47">const</span><span class="sc41"> </span><span class="sc50">[</span><span class="sc46">assignedRoutes</span><span class="sc50">,</span><span class="sc41"> </span><span class="sc46">setAssignedRoutes</span><span class="sc50">]</span><span class="sc41"> </span><span class="sc50">=</span><span class="sc41"> </span><span class="sc46">React.useState</span><span class="sc50">({});</span><span class="sc41">
+            </span><span class="sc47">const</span><span class="sc41"> </span><span class="sc50">[</span><span class="sc46">unidadesActivas</span><span class="sc50">,</span><span class="sc41"> </span><span class="sc46">setUnidadesActivas</span><span class="sc50">]</span><span class="sc41"> </span><span class="sc50">=</span><span class="sc41"> </span><span class="sc46">React.useState</span><span class="sc50">({});</span><span class="sc41">
+            </span><span class="sc47">const</span><span class="sc41"> </span><span class="sc50">[</span><span class="sc46">incidents</span><span class="sc50">,</span><span class="sc41"> </span><span class="sc46">setIncidents</span><span class="sc50">]</span><span class="sc41"> </span><span class="sc50">=</span><span class="sc41"> </span><span class="sc46">React.useState</span><span class="sc50">([]);</span><span class="sc41">
+
+            </span><span class="sc43">// Sincronización con Firebase</span><span class="sc41">
+            </span><span class="sc46">React.useEffect</span><span class="sc50">(()</span><span class="sc41"> </span><span class="sc50">=&gt;</span><span class="sc41"> </span><span class="sc50">{</span><span class="sc41">
+                </span><span class="sc47">const</span><span class="sc41"> </span><span class="sc46">checkFirebase</span><span class="sc41"> </span><span class="sc50">=</span><span class="sc41"> </span><span class="sc46">setInterval</span><span class="sc50">(()</span><span class="sc41"> </span><span class="sc50">=&gt;</span><span class="sc41"> </span><span class="sc50">{</span><span class="sc41">
+                    </span><span class="sc47">if</span><span class="sc41"> </span><span class="sc50">(</span><span class="sc46">window.spicFirebase</span><span class="sc50">)</span><span class="sc41"> </span><span class="sc50">{</span><span class="sc41">
+                        </span><span class="sc46">clearInterval</span><span class="sc50">(</span><span class="sc46">checkFirebase</span><span class="sc50">);</span><span class="sc41">
+                        </span><span class="sc47">const</span><span class="sc41"> </span><span class="sc50">{</span><span class="sc41"> </span><span class="sc46">db</span><span class="sc50">,</span><span class="sc41"> </span><span class="sc46">ref</span><span class="sc50">,</span><span class="sc41"> </span><span class="sc46">onValue</span><span class="sc41"> </span><span class="sc50">}</span><span class="sc41"> </span><span class="sc50">=</span><span class="sc41"> </span><span class="sc46">window.spicFirebase</span><span class="sc50">;</span><span class="sc41">
+
+                        </span><span class="sc46">onValue</span><span class="sc50">(</span><span class="sc46">ref</span><span class="sc50">(</span><span class="sc46">db</span><span class="sc50">,</span><span class="sc41"> </span><span class="sc49">'unidadesActivas'</span><span class="sc50">),</span><span class="sc41"> </span><span class="sc50">(</span><span class="sc46">snapshot</span><span class="sc50">)</span><span class="sc41"> </span><span class="sc50">=&gt;</span><span class="sc41"> </span><span class="sc50">{</span><span class="sc41">
+                            </span><span class="sc47">const</span><span class="sc41"> </span><span class="sc46">data</span><span class="sc41"> </span><span class="sc50">=</span><span class="sc41"> </span><span class="sc46">snapshot.val</span><span class="sc50">();</span><span class="sc41">
+                            </span><span class="sc47">if</span><span class="sc41"> </span><span class="sc50">(</span><span class="sc46">data</span><span class="sc50">)</span><span class="sc41"> </span><span class="sc46">setUnidadesActivas</span><span class="sc50">(</span><span class="sc46">data</span><span class="sc50">);</span><span class="sc41">
+                            </span><span class="sc47">else</span><span class="sc41"> </span><span class="sc46">setUnidadesActivas</span><span class="sc50">({});</span><span class="sc41">
+                        </span><span class="sc50">});</span><span class="sc41">
+
+                        </span><span class="sc46">onValue</span><span class="sc50">(</span><span class="sc46">ref</span><span class="sc50">(</span><span class="sc46">db</span><span class="sc50">,</span><span class="sc41"> </span><span class="sc49">'rutasAsignadas'</span><span class="sc50">),</span><span class="sc41"> </span><span class="sc50">(</span><span class="sc46">snapshot</span><span class="sc50">)</span><span class="sc41"> </span><span class="sc50">=&gt;</span><span class="sc41"> </span><span class="sc50">{</span><span class="sc41">
+                            </span><span class="sc47">const</span><span class="sc41"> </span><span class="sc46">data</span><span class="sc41"> </span><span class="sc50">=</span><span class="sc41"> </span><span class="sc46">snapshot.val</span><span class="sc50">();</span><span class="sc41">
+                            </span><span class="sc47">if</span><span class="sc41"> </span><span class="sc50">(</span><span class="sc46">data</span><span class="sc50">)</span><span class="sc41"> </span><span class="sc46">setAssignedRoutes</span><span class="sc50">(</span><span class="sc46">data</span><span class="sc50">);</span><span class="sc41">
+                        </span><span class="sc50">});</span><span class="sc41">
+
+                        </span><span class="sc46">onValue</span><span class="sc50">(</span><span class="sc46">ref</span><span class="sc50">(</span><span class="sc46">db</span><span class="sc50">,</span><span class="sc41"> </span><span class="sc49">'incidencias'</span><span class="sc50">),</span><span class="sc41"> </span><span class="sc50">(</span><span class="sc46">snapshot</span><span class="sc50">)</span><span class="sc41"> </span><span class="sc50">=&gt;</span><span class="sc41"> </span><span class="sc50">{</span><span class="sc41">
+                            </span><span class="sc47">const</span><span class="sc41"> </span><span class="sc46">data</span><span class="sc41"> </span><span class="sc50">=</span><span class="sc41"> </span><span class="sc46">snapshot.val</span><span class="sc50">();</span><span class="sc41">
+                            </span><span class="sc47">if</span><span class="sc41"> </span><span class="sc50">(</span><span class="sc46">data</span><span class="sc50">)</span><span class="sc41"> </span><span class="sc50">{</span><span class="sc41">
+                                </span><span class="sc47">const</span><span class="sc41"> </span><span class="sc46">list</span><span class="sc41"> </span><span class="sc50">=</span><span class="sc41"> </span><span class="sc46">Object.keys</span><span class="sc50">(</span><span class="sc46">data</span><span class="sc50">).</span><span class="sc46">map</span><span class="sc50">(</span><span class="sc46">k</span><span class="sc41"> </span><span class="sc50">=&gt;</span><span class="sc41"> </span><span class="sc50">({</span><span class="sc41"> </span><span class="sc46">id</span><span class="sc50">:</span><span class="sc41"> </span><span class="sc46">k</span><span class="sc50">,</span><span class="sc41"> </span><span class="sc50">...</span><span class="sc46">data</span><span class="sc50">[</span><span class="sc46">k</span><span class="sc50">]</span><span class="sc41"> </span><span class="sc50">}));</span><span class="sc41">
+                                </span><span class="sc46">setIncidents</span><span class="sc50">(</span><span class="sc46">list</span><span class="sc50">);</span><span class="sc41">
+                            </span><span class="sc50">}</span><span class="sc41"> </span><span class="sc47">else</span><span class="sc41"> </span><span class="sc50">{</span><span class="sc41">
+                                </span><span class="sc46">setIncidents</span><span class="sc50">([]);</span><span class="sc41">
+                            </span><span class="sc50">}</span><span class="sc41">
+                        </span><span class="sc50">});</span><span class="sc41">
+                    </span><span class="sc50">}</span><span class="sc41">
+                </span><span class="sc50">},</span><span class="sc41"> </span><span class="sc45">500</span><span class="sc50">);</span><span class="sc41">
+                </span><span class="sc47">return</span><span class="sc41"> </span><span class="sc50">()</span><span class="sc41"> </span><span class="sc50">=&gt;</span><span class="sc41"> </span><span class="sc46">clearInterval</span><span class="sc50">(</span><span class="sc46">checkFirebase</span><span class="sc50">);</span><span class="sc41">
+            </span><span class="sc50">},</span><span class="sc41"> </span><span class="sc50">[]);</span><span class="sc41">
+
+            </span><span class="sc47">const</span><span class="sc41"> </span><span class="sc46">handleAuth</span><span class="sc41"> </span><span class="sc50">=</span><span class="sc41"> </span><span class="sc50">(</span><span class="sc46">e</span><span class="sc50">)</span><span class="sc41"> </span><span class="sc50">=&gt;</span><span class="sc41"> </span><span class="sc50">{</span><span class="sc41">
+                </span><span class="sc46">e.preventDefault</span><span class="sc50">();</span><span class="sc41">
+                </span><span class="sc46">setErrorMsg</span><span class="sc50">(</span><span class="sc49">''</span><span class="sc50">);</span><span class="sc41">
+                </span><span class="sc47">if</span><span class="sc41"> </span><span class="sc50">(</span><span class="sc46">authMode</span><span class="sc41"> </span><span class="sc50">===</span><span class="sc41"> </span><span class="sc49">'login'</span><span class="sc50">)</span><span class="sc41"> </span><span class="sc50">{</span><span class="sc41">
+                    </span><span class="sc47">const</span><span class="sc41"> </span><span class="sc46">found</span><span class="sc41"> </span><span class="sc50">=</span><span class="sc41"> </span><span class="sc46">usersDB.find</span><span class="sc50">(</span><span class="sc46">u</span><span class="sc41"> </span><span class="sc50">=&gt;</span><span class="sc41"> </span><span class="sc46">u.pin</span><span class="sc41"> </span><span class="sc50">===</span><span class="sc41"> </span><span class="sc46">inputPin</span><span class="sc41"> </span><span class="sc50">&amp;&amp;</span><span class="sc41"> </span><span class="sc50">(</span><span class="sc46">u.name.toLowerCase</span><span class="sc50">()</span><span class="sc41"> </span><span class="sc50">===</span><span class="sc41"> </span><span class="sc46">inputName.toLowerCase</span><span class="sc50">()</span><span class="sc41"> </span><span class="sc50">||</span><span class="sc41"> </span><span class="sc46">u.role</span><span class="sc41"> </span><span class="sc50">===</span><span class="sc41"> </span><span class="sc46">inputRole</span><span class="sc50">));</span><span class="sc41">
+                    </span><span class="sc47">if</span><span class="sc41"> </span><span class="sc50">(</span><span class="sc46">found</span><span class="sc50">)</span><span class="sc41"> </span><span class="sc50">{</span><span class="sc41">
+                        </span><span class="sc46">setCurrentUser</span><span class="sc50">(</span><span class="sc46">found</span><span class="sc50">);</span><span class="sc41">
+                        </span><span class="sc46">setRole</span><span class="sc50">(</span><span class="sc46">found.role</span><span class="sc50">);</span><span class="sc41">
+                    </span><span class="sc50">}</span><span class="sc41"> </span><span class="sc47">else</span><span class="sc41"> </span><span class="sc50">{</span><span class="sc41">
+                        </span><span class="sc46">setErrorMsg</span><span class="sc50">(</span><span class="sc49">'PIN incorrecto o usuario no encontrado.'</span><span class="sc50">);</span><span class="sc41">
+                    </span><span class="sc50">}</span><span class="sc41">
+                </span><span class="sc50">}</span><span class="sc41"> </span><span class="sc47">else</span><span class="sc41"> </span><span class="sc50">{</span><span class="sc41">
+                    </span><span class="sc47">if</span><span class="sc41"> </span><span class="sc50">(!</span><span class="sc46">inputName</span><span class="sc41"> </span><span class="sc50">||</span><span class="sc41"> </span><span class="sc50">!</span><span class="sc46">inputPin</span><span class="sc50">)</span><span class="sc41"> </span><span class="sc50">{</span><span class="sc41">
+                        </span><span class="sc46">setErrorMsg</span><span class="sc50">(</span><span class="sc49">'Completa todos los campos.'</span><span class="sc50">);</span><span class="sc41">
+                        </span><span class="sc47">return</span><span class="sc50">;</span><span class="sc41">
+                    </span><span class="sc50">}</span><span class="sc41">
+                    </span><span class="sc47">const</span><span class="sc41"> </span><span class="sc46">newUser</span><span class="sc41"> </span><span class="sc50">=</span><span class="sc41"> </span><span class="sc50">{</span><span class="sc41"> </span><span class="sc46">name</span><span class="sc50">:</span><span class="sc41"> </span><span class="sc46">inputName</span><span class="sc50">,</span><span class="sc41"> </span><span class="sc46">role</span><span class="sc50">:</span><span class="sc41"> </span><span class="sc46">inputRole</span><span class="sc50">,</span><span class="sc41"> </span><span class="sc46">pin</span><span class="sc50">:</span><span class="sc41"> </span><span class="sc46">inputPin</span><span class="sc50">,</span><span class="sc41"> </span><span class="sc46">unit</span><span class="sc50">:</span><span class="sc41"> </span><span class="sc46">inputUnit</span><span class="sc41"> </span><span class="sc50">};</span><span class="sc41">
+                    </span><span class="sc46">setUsersDB</span><span class="sc50">([...</span><span class="sc46">usersDB</span><span class="sc50">,</span><span class="sc41"> </span><span class="sc46">newUser</span><span class="sc50">]);</span><span class="sc41">
+                    </span><span class="sc46">setCurrentUser</span><span class="sc50">(</span><span class="sc46">newUser</span><span class="sc50">);</span><span class="sc41">
+                    </span><span class="sc46">setRole</span><span class="sc50">(</span><span class="sc46">inputRole</span><span class="sc50">);</span><span class="sc41">
+                </span><span class="sc50">}</span><span class="sc41">
+            </span><span class="sc50">};</span><span class="sc41">
+
+            </span><span class="sc47">const</span><span class="sc41"> </span><span class="sc46">handleLogout</span><span class="sc41"> </span><span class="sc50">=</span><span class="sc41"> </span><span class="sc50">()</span><span class="sc41"> </span><span class="sc50">=&gt;</span><span class="sc41"> </span><span class="sc50">{</span><span class="sc41">
+                </span><span class="sc47">if</span><span class="sc41"> </span><span class="sc50">(</span><span class="sc46">confirm</span><span class="sc50">(</span><span class="sc49">'¿Estás seguro de salir de la aplicación?'</span><span class="sc50">))</span><span class="sc41"> </span><span class="sc50">{</span><span class="sc41">
+                    </span><span class="sc46">setCurrentUser</span><span class="sc50">(</span><span class="sc47">null</span><span class="sc50">);</span><span class="sc41">
+                    </span><span class="sc46">setRole</span><span class="sc50">(</span><span class="sc47">null</span><span class="sc50">);</span><span class="sc41">
+                    </span><span class="sc46">setInputPin</span><span class="sc50">(</span><span class="sc49">''</span><span class="sc50">);</span><span class="sc41">
+                </span><span class="sc50">}</span><span class="sc41">
+            </span><span class="sc50">};</span><span class="sc41">
+
+            </span><span class="sc47">if</span><span class="sc41"> </span><span class="sc50">(!</span><span class="sc46">role</span><span class="sc41"> </span><span class="sc50">||</span><span class="sc41"> </span><span class="sc50">!</span><span class="sc46">currentUser</span><span class="sc50">)</span><span class="sc41"> </span><span class="sc50">{</span><span class="sc41">
+                </span><span class="sc47">return</span><span class="sc41"> </span><span class="sc50">(</span><span class="sc41">
+                    </span><span class="sc50">&lt;</span><span class="sc46">div</span><span class="sc41"> </span><span class="sc46">className</span><span class="sc50">=</span><span class="sc48">"min-h-screen bg-gradient-to-br from-slate-950 via-blue-950 to-slate-900 flex items-center justify-center p-4"</span><span class="sc50">&gt;</span><span class="sc41">
+                        </span><span class="sc50">&lt;</span><span class="sc46">div</span><span class="sc41"> </span><span class="sc46">className</span><span class="sc50">=</span><span class="sc48">"bg-slate-900/95 border border-blue-500/30 p-8 rounded-2xl shadow-2xl w-full max-w-md backdrop-blur-md"</span><span class="sc50">&gt;</span><span class="sc41">
+                            </span><span class="sc50">&lt;</span><span class="sc46">div</span><span class="sc41"> </span><span class="sc46">className</span><span class="sc50">=</span><span class="sc48">"text-center mb-6"</span><span class="sc50">&gt;</span><span class="sc41">
+                                </span><span class="sc50">&lt;</span><span class="sc46">h1</span><span class="sc41"> </span><span class="sc46">className</span><span class="sc50">=</span><span class="sc48">"text-3xl font-black text-blue-400 tracking-wider"</span><span class="sc50">&gt;</span><span class="sc46">SPIC</span><span class="sc41"> </span><span class="sc46">TRANSPORTES</span><span class="sc1">&lt;/h1&gt;</span><span class="sc0">
+                                </span><span class="sc1">&lt;p</span><span class="sc8"> </span><span class="sc4">className</span><span class="sc8">=</span><span class="sc6">"text-slate-400 text-sm mt-1"</span><span class="sc1">&gt;</span><span class="sc0">Monitoreo y Control Satelital en Campo</span><span class="sc1">&lt;/p&gt;</span><span class="sc0">
+                            </span><span class="sc1">&lt;/div&gt;</span><span class="sc0">
+
+                            </span><span class="sc1">&lt;div</span><span class="sc8"> </span><span class="sc4">className</span><span class="sc8">=</span><span class="sc6">"flex bg-slate-800 p-1 rounded-xl mb-6"</span><span class="sc1">&gt;</span><span class="sc0">
+                                </span><span class="sc1">&lt;button</span><span class="sc8"> </span><span class="sc3">onClick</span><span class="sc8">={() =</span><span class="sc1">&gt;</span><span class="sc0"> setAuthMode('login')} className={`flex-1 py-2 text-sm font-semibold rounded-lg transition ${authMode === 'login' ? 'bg-blue-600 text-white' : 'text-slate-400'}`}&gt;Ingresar</span><span class="sc1">&lt;/button&gt;</span><span class="sc0">
+                                </span><span class="sc1">&lt;button</span><span class="sc8"> </span><span class="sc3">onClick</span><span class="sc8">={() =</span><span class="sc1">&gt;</span><span class="sc0"> setAuthMode('register')} className={`flex-1 py-2 text-sm font-semibold rounded-lg transition ${authMode === 'register' ? 'bg-blue-600 text-white' : 'text-slate-400'}`}&gt;Registrarse</span><span class="sc1">&lt;/button&gt;</span><span class="sc0">
+                            </span><span class="sc1">&lt;/div&gt;</span><span class="sc0">
+
+                            {errorMsg </span><span class="sc2">&amp;&amp;</span><span class="sc0"> </span><span class="sc1">&lt;div</span><span class="sc8"> </span><span class="sc4">className</span><span class="sc8">=</span><span class="sc6">"bg-red-500/20 border border-red-500 text-red-300 p-3 rounded-lg text-sm mb-4"</span><span class="sc1">&gt;</span><span class="sc0">{errorMsg}</span><span class="sc1">&lt;/div&gt;</span><span class="sc0">}
+
+                            </span><span class="sc1">&lt;form</span><span class="sc8"> </span><span class="sc3">onSubmit</span><span class="sc8">={</span><span class="sc4">handleAuth</span><span class="sc8">} </span><span class="sc4">className</span><span class="sc8">=</span><span class="sc6">"space-y-4"</span><span class="sc1">&gt;</span><span class="sc0">
+                                </span><span class="sc1">&lt;div&gt;</span><span class="sc0">
+                                    </span><span class="sc1">&lt;label</span><span class="sc8"> </span><span class="sc4">className</span><span class="sc8">=</span><span class="sc6">"block text-xs uppercase font-bold text-slate-400 mb-1"</span><span class="sc1">&gt;</span><span class="sc0">Nombre de Usuario</span><span class="sc1">&lt;/label&gt;</span><span class="sc0">
+                                    </span><span class="sc1">&lt;input</span><span class="sc8"> </span><span class="sc3">type</span><span class="sc8">=</span><span class="sc6">"text"</span><span class="sc8"> </span><span class="sc3">value</span><span class="sc8">={</span><span class="sc4">inputName</span><span class="sc8">} </span><span class="sc3">onChange</span><span class="sc8">={</span><span class="sc4">e</span><span class="sc8"> =</span><span class="sc1">&gt;</span><span class="sc0"> setInputName(e.target.value)} placeholder="Ej. Carlos Chofer" className="w-full bg-slate-800 border border-slate-700 rounded-xl px-4 py-3 text-white focus:outline-none focus:border-blue-500" required /&gt;
+                                </span><span class="sc1">&lt;/div&gt;</span><span class="sc0">
+                                {authMode === 'register' </span><span class="sc2">&amp;&amp;</span><span class="sc0"> (
+                                    </span><span class="sc2">&lt;&gt;</span><span class="sc0">
+                                        </span><span class="sc1">&lt;div&gt;</span><span class="sc0">
+                                            </span><span class="sc1">&lt;label</span><span class="sc8"> </span><span class="sc4">className</span><span class="sc8">=</span><span class="sc6">"block text-xs uppercase font-bold text-slate-400 mb-1"</span><span class="sc1">&gt;</span><span class="sc0">Rol</span><span class="sc1">&lt;/label&gt;</span><span class="sc0">
+                                            </span><span class="sc1">&lt;select</span><span class="sc8"> </span><span class="sc3">value</span><span class="sc8">={</span><span class="sc4">inputRole</span><span class="sc8">} </span><span class="sc3">onChange</span><span class="sc8">={</span><span class="sc4">e</span><span class="sc8"> =</span><span class="sc1">&gt;</span><span class="sc0"> setInputRole(e.target.value)} className="w-full bg-slate-800 border border-slate-700 rounded-xl px-4 py-3 text-white focus:outline-none focus:border-blue-500"&gt;
+                                                </span><span class="sc1">&lt;option</span><span class="sc8"> </span><span class="sc3">value</span><span class="sc8">=</span><span class="sc6">"pasajero"</span><span class="sc1">&gt;</span><span class="sc0">Pasajero / Usuario</span><span class="sc1">&lt;/option&gt;</span><span class="sc0">
+                                                </span><span class="sc1">&lt;option</span><span class="sc8"> </span><span class="sc3">value</span><span class="sc8">=</span><span class="sc6">"chofer"</span><span class="sc1">&gt;</span><span class="sc0">Chofer de Unidad</span><span class="sc1">&lt;/option&gt;</span><span class="sc0">
+                                                </span><span class="sc1">&lt;option</span><span class="sc8"> </span><span class="sc3">value</span><span class="sc8">=</span><span class="sc6">"admin"</span><span class="sc1">&gt;</span><span class="sc0">Administrador</span><span class="sc1">&lt;/option&gt;</span><span class="sc0">
+                                            </span><span class="sc1">&lt;/select&gt;</span><span class="sc0">
+                                        </span><span class="sc1">&lt;/div&gt;</span><span class="sc0">
+                                        {inputRole === 'chofer' </span><span class="sc2">&amp;&amp;</span><span class="sc0"> (
+                                            </span><span class="sc1">&lt;div&gt;</span><span class="sc0">
+                                                </span><span class="sc1">&lt;label</span><span class="sc8"> </span><span class="sc4">className</span><span class="sc8">=</span><span class="sc6">"block text-xs uppercase font-bold text-slate-400 mb-1"</span><span class="sc1">&gt;</span><span class="sc0">Unidad</span><span class="sc1">&lt;/label&gt;</span><span class="sc0">
+                                                </span><span class="sc1">&lt;input</span><span class="sc8"> </span><span class="sc3">type</span><span class="sc8">=</span><span class="sc6">"text"</span><span class="sc8"> </span><span class="sc3">value</span><span class="sc8">={</span><span class="sc4">inputUnit</span><span class="sc8">} </span><span class="sc3">onChange</span><span class="sc8">={</span><span class="sc4">e</span><span class="sc8"> =</span><span class="sc1">&gt;</span><span class="sc0"> setInputUnit(e.target.value)} className="w-full bg-slate-800 border border-slate-700 rounded-xl px-4 py-3 text-white focus:outline-none focus:border-blue-500" /&gt;
+                                            </span><span class="sc1">&lt;/div&gt;</span><span class="sc0">
+                                        )}
+                                    </span><span class="sc2">&lt;/&gt;</span><span class="sc0">
+                                )}
+                                </span><span class="sc1">&lt;div&gt;</span><span class="sc0">
+                                    </span><span class="sc1">&lt;label</span><span class="sc8"> </span><span class="sc4">className</span><span class="sc8">=</span><span class="sc6">"block text-xs uppercase font-bold text-slate-400 mb-1"</span><span class="sc1">&gt;</span><span class="sc0">PIN de Acceso (4 dígitos)</span><span class="sc1">&lt;/label&gt;</span><span class="sc0">
+                                    </span><span class="sc1">&lt;input</span><span class="sc8"> </span><span class="sc3">type</span><span class="sc8">=</span><span class="sc6">"password"</span><span class="sc8"> </span><span class="sc3">maxLength</span><span class="sc8">=</span><span class="sc6">"4"</span><span class="sc8"> </span><span class="sc3">value</span><span class="sc8">={</span><span class="sc4">inputPin</span><span class="sc8">} </span><span class="sc3">onChange</span><span class="sc8">={</span><span class="sc4">e</span><span class="sc8"> =</span><span class="sc1">&gt;</span><span class="sc0"> setInputPin(e.target.value)} placeholder="••••" className="w-full bg-slate-800 border border-slate-700 rounded-xl px-4 py-3 text-center tracking-widest text-2xl text-white focus:outline-none focus:border-blue-500" required /&gt;
+                                </span><span class="sc1">&lt;/div&gt;</span><span class="sc0">
+                                </span><span class="sc1">&lt;button</span><span class="sc8"> </span><span class="sc3">type</span><span class="sc8">=</span><span class="sc6">"submit"</span><span class="sc8"> </span><span class="sc4">className</span><span class="sc8">=</span><span class="sc6">"w-full bg-blue-600 hover:bg-blue-500 text-white font-bold py-3 rounded-xl shadow-lg transition"</span><span class="sc1">&gt;</span><span class="sc0">{authMode === 'login' ? 'Iniciar Sesión' : 'Crear Cuenta y PIN'}</span><span class="sc1">&lt;/button&gt;</span><span class="sc0">
+                            </span><span class="sc1">&lt;/form&gt;</span><span class="sc0">
+
+                            </span><span class="sc1">&lt;div</span><span class="sc8"> </span><span class="sc4">className</span><span class="sc8">=</span><span class="sc6">"mt-8 text-center text-xs text-slate-500"</span><span class="sc1">&gt;</span><span class="sc0">
+                                Creado por </span><span class="sc1">&lt;span</span><span class="sc8"> </span><span class="sc4">className</span><span class="sc8">=</span><span class="sc6">"text-blue-400 font-semibold"</span><span class="sc1">&gt;</span><span class="sc0">Leo Mdfk</span><span class="sc1">&lt;/span&gt;</span><span class="sc0">
+                            </span><span class="sc1">&lt;/div&gt;</span><span class="sc0">
+                        </span><span class="sc1">&lt;/div&gt;</span><span class="sc0">
+                    </span><span class="sc1">&lt;/div&gt;</span><span class="sc0">
+                );
+            }
+
+            return (
+                </span><span class="sc1">&lt;div</span><span class="sc8"> </span><span class="sc4">className</span><span class="sc8">=</span><span class="sc6">"min-h-screen bg-slate-950 flex flex-col"</span><span class="sc1">&gt;</span><span class="sc0">
+                    </span><span class="sc1">&lt;header</span><span class="sc8"> </span><span class="sc4">className</span><span class="sc8">=</span><span class="sc6">"bg-slate-900 border-b border-slate-800 px-4 py-3 flex justify-between items-center sticky top-0 z-50"</span><span class="sc1">&gt;</span><span class="sc0">
+                        </span><span class="sc1">&lt;div</span><span class="sc8"> </span><span class="sc4">className</span><span class="sc8">=</span><span class="sc6">"flex items-center space-x-3"</span><span class="sc1">&gt;</span><span class="sc0">
+                            </span><span class="sc1">&lt;div</span><span class="sc8"> </span><span class="sc4">className</span><span class="sc8">=</span><span class="sc6">"bg-emerald-500 w-3 h-3 rounded-full animate-pulse"</span><span class="sc1">&gt;&lt;/div&gt;</span><span class="sc0">
+                            </span><span class="sc1">&lt;span</span><span class="sc8"> </span><span class="sc4">className</span><span class="sc8">=</span><span class="sc6">"font-bold text-lg text-white tracking-wide"</span><span class="sc1">&gt;</span><span class="sc0">SPIC TRANSPORTES</span><span class="sc1">&lt;/span&gt;</span><span class="sc0">
+                            </span><span class="sc1">&lt;span</span><span class="sc8"> </span><span class="sc4">className</span><span class="sc8">=</span><span class="sc6">"text-xs bg-blue-500/20 text-blue-400 px-2 py-0.5 rounded-full border border-blue-500/30 uppercase font-semibold"</span><span class="sc1">&gt;</span><span class="sc0">{role}</span><span class="sc1">&lt;/span&gt;</span><span class="sc0">
+                        </span><span class="sc1">&lt;/div&gt;</span><span class="sc0">
+                        </span><span class="sc1">&lt;div</span><span class="sc8"> </span><span class="sc4">className</span><span class="sc8">=</span><span class="sc6">"flex items-center space-x-3"</span><span class="sc1">&gt;</span><span class="sc0">
+                            </span><span class="sc1">&lt;span</span><span class="sc8"> </span><span class="sc4">className</span><span class="sc8">=</span><span class="sc6">"text-sm text-slate-300 hidden sm:inline"</span><span class="sc1">&gt;</span><span class="sc0">{currentUser.name}</span><span class="sc1">&lt;/span&gt;</span><span class="sc0">
+                            </span><span class="sc1">&lt;button</span><span class="sc8"> </span><span class="sc3">onClick</span><span class="sc8">={</span><span class="sc4">handleLogout</span><span class="sc8">} </span><span class="sc4">className</span><span class="sc8">=</span><span class="sc6">"bg-red-600/20 hover:bg-red-600 text-red-400 hover:text-white border border-red-500/30 px-3 py-1.5 rounded-lg text-xs font-semibold transition"</span><span class="sc1">&gt;</span><span class="sc0">Salir</span><span class="sc1">&lt;/button&gt;</span><span class="sc0">
+                        </span><span class="sc1">&lt;/div&gt;</span><span class="sc0">
+                    </span><span class="sc1">&lt;/header&gt;</span><span class="sc0">
+
+                    </span><span class="sc1">&lt;main</span><span class="sc8"> </span><span class="sc4">className</span><span class="sc8">=</span><span class="sc6">"flex-1 p-4 max-w-7xl mx-auto w-full"</span><span class="sc1">&gt;</span><span class="sc0">
+                        {role === 'admin' </span><span class="sc2">&amp;&amp;</span><span class="sc0"> </span><span class="sc2">&lt;AdminPortal routes={routes} assignedRoutes={assignedRoutes} setAssignedRoutes={setAssignedRoutes} unidadesActivas={unidadesActivas} incidents={incidents} /&gt;</span><span class="sc0">}
+                        {role === 'chofer' </span><span class="sc2">&amp;&amp;</span><span class="sc0"> </span><span class="sc2">&lt;ChoferPortal currentUser={currentUser} routes={routes} assignedRoutes={assignedRoutes} /&gt;</span><span class="sc0">}
+                        {role === 'pasajero' </span><span class="sc2">&amp;&amp;</span><span class="sc0"> </span><span class="sc2">&lt;PasajeroPortal currentUser={currentUser} routes={routes} unidadesActivas={unidadesActivas} /&gt;</span><span class="sc0">}
+                    </span><span class="sc1">&lt;/main&gt;</span><span class="sc0">
+
+                    </span><span class="sc1">&lt;footer</span><span class="sc8"> </span><span class="sc4">className</span><span class="sc8">=</span><span class="sc6">"bg-slate-900 border-t border-slate-800 py-2 text-center text-xs text-slate-500"</span><span class="sc1">&gt;</span><span class="sc0">
+                        SPIC TRANSPORTES </span><span class="sc10">&amp;bull;</span><span class="sc0"> Creado por </span><span class="sc1">&lt;span</span><span class="sc8"> </span><span class="sc4">className</span><span class="sc8">=</span><span class="sc6">"text-blue-400 font-medium"</span><span class="sc1">&gt;</span><span class="sc0">Leo Mdfk</span><span class="sc1">&lt;/span&gt;</span><span class="sc0">
+                    </span><span class="sc1">&lt;/footer&gt;</span><span class="sc0">
+                </span><span class="sc1">&lt;/div&gt;</span><span class="sc0">
+            );
+        }
+
+        // ================= ADMIN PORTAL =================
+        function AdminPortal({ routes, assignedRoutes, setAssignedRoutes, unidadesActivas, incidents }) {
+            const [selectedChofer, setSelectedChofer] = React.useState('Carlos Chofer');
+            const [selectedRoute, setSelectedRoute] = React.useState(routes[0].name);
+            const mapRef = React.useRef(null);
+            const mapInstance = React.useRef(null);
+            const markersRef = React.useRef({});
+
+            React.useEffect(() =&gt; {
+                if (!mapInstance.current </span><span class="sc2">&amp;&amp;</span><span class="sc0"> mapRef.current </span><span class="sc2">&amp;&amp;</span><span class="sc0"> window.L) {
+                    mapInstance.current = L.map(mapRef.current).setView([25.4232, -101.0053], 13);
+                    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', { maxZoom: 19, attribution: '</span><span class="sc10">&amp;copy;</span><span class="sc0"> OpenStreetMap' }).addTo(mapInstance.current);
+                }
+            }, []);
+
+            React.useEffect(() =&gt; {
+                if (!mapInstance.current || !window.L) return;
+                const map = mapInstance.current;
+               
+                Object.keys(unidadesActivas).forEach(key =&gt; {
+                    const u = unidadesActivas[key];
+                    if (u </span><span class="sc2">&amp;&amp;</span><span class="sc0"> u.lat </span><span class="sc2">&amp;&amp;</span><span class="sc0"> u.lng) {
+                        if (markersRef.current[key]) {
+                            markersRef.current[key].setLatLng([u.lat, u.lng]);
+                            markersRef.current[key].bindPopup(`</span><span class="sc1">&lt;b&gt;</span><span class="sc0">${u.nombreChofer}</span><span class="sc1">&lt;/b&gt;&lt;br&gt;</span><span class="sc0">Ruta: ${u.ruta}</span><span class="sc1">&lt;br&gt;</span><span class="sc0">Velocidad: ${Math.round(u.velocidad || 0)} km/h`);
+                        } else {
+                            const marker = L.marker([u.lat, u.lng]).addTo(map)
+                                .bindPopup(`</span><span class="sc1">&lt;b&gt;</span><span class="sc0">${u.nombreChofer}</span><span class="sc1">&lt;/b&gt;&lt;br&gt;</span><span class="sc0">Ruta: ${u.ruta}</span><span class="sc1">&lt;br&gt;</span><span class="sc0">Velocidad: ${Math.round(u.velocidad || 0)} km/h`);
+                            markersRef.current[key] = marker;
+                        }
+                    }
+                });
+            }, [unidadesActivas]);
+
+            const assignRouteToDriver = () =&gt; {
+                const updated = { ...assignedRoutes, [selectedChofer]: selectedRoute };
+                setAssignedRoutes(updated);
+                if (window.spicFirebase) {
+                    window.spicFirebase.set(window.spicFirebase.ref(window.spicFirebase.db, 'rutasAsignadas'), updated);
+                }
+                alert(`¡Ruta "${selectedRoute}" asignada correctamente a ${selectedChofer}!`);
+            };
+
+            const exportExcel = () =&gt; {
+                const dataToExport = Object.keys(unidadesActivas).map(k =&gt; ({
+                    Chofer: unidadesActivas[k].nombreChofer,
+                    Ruta: unidadesActivas[k].ruta,
+                    Latitud: unidadesActivas[k].lat,
+                    Longitud: unidadesActivas[k].lng,
+                    VelocidadKMH: unidadesActivas[k].velocidad || 0,
+                    UltimaActualizacion: new Date(unidadesActivas[k].timestamp).toLocaleTimeString()
+                }));
+                const ws = XLSX.utils.json_to_sheet(dataToExport);
+                const wb = XLSX.utils.book_new();
+                XLSX.utils.book_append_sheet(wb, ws, "MonitoreoFlotilla");
+                XLSX.writeFile(wb, "Reporte_Flotilla_SPIC.xlsx");
+            };
+
+            return (
+                </span><span class="sc1">&lt;div</span><span class="sc8"> </span><span class="sc4">className</span><span class="sc8">=</span><span class="sc6">"space-y-6"</span><span class="sc1">&gt;</span><span class="sc0">
+                    </span><span class="sc1">&lt;div</span><span class="sc8"> </span><span class="sc4">className</span><span class="sc8">=</span><span class="sc6">"grid grid-cols-1 md:grid-cols-3 gap-4"</span><span class="sc1">&gt;</span><span class="sc0">
+                        </span><span class="sc1">&lt;div</span><span class="sc8"> </span><span class="sc4">className</span><span class="sc8">=</span><span class="sc6">"bg-slate-900 border border-slate-800 p-5 rounded-2xl"</span><span class="sc1">&gt;</span><span class="sc0">
+                            </span><span class="sc1">&lt;h3</span><span class="sc8"> </span><span class="sc4">className</span><span class="sc8">=</span><span class="sc6">"text-sm font-bold text-slate-400 uppercase"</span><span class="sc1">&gt;</span><span class="sc0">Asignación de Ruta</span><span class="sc1">&lt;/h3&gt;</span><span class="sc0">
+                            </span><span class="sc1">&lt;div</span><span class="sc8"> </span><span class="sc4">className</span><span class="sc8">=</span><span class="sc6">"mt-3 space-y-3"</span><span class="sc1">&gt;</span><span class="sc0">
+                                </span><span class="sc1">&lt;div&gt;</span><span class="sc0">
+                                    </span><span class="sc1">&lt;label</span><span class="sc8"> </span><span class="sc4">className</span><span class="sc8">=</span><span class="sc6">"text-xs text-slate-500"</span><span class="sc1">&gt;</span><span class="sc0">Chofer</span><span class="sc1">&lt;/label&gt;</span><span class="sc0">
+                                    </span><span class="sc1">&lt;select</span><span class="sc8"> </span><span class="sc3">value</span><span class="sc8">={</span><span class="sc4">selectedChofer</span><span class="sc8">} </span><span class="sc3">onChange</span><span class="sc8">={</span><span class="sc4">e</span><span class="sc8"> =</span><span class="sc1">&gt;</span><span class="sc0"> setSelectedChofer(e.target.value)} className="w-full bg-slate-800 border border-slate-700 rounded-xl p-2.5 text-sm text-white"&gt;
+                                        </span><span class="sc1">&lt;option</span><span class="sc8"> </span><span class="sc3">value</span><span class="sc8">=</span><span class="sc6">"Carlos Chofer"</span><span class="sc1">&gt;</span><span class="sc0">Carlos Chofer (Unidad 101)</span><span class="sc1">&lt;/option&gt;</span><span class="sc0">
+                                        </span><span class="sc1">&lt;option</span><span class="sc8"> </span><span class="sc3">value</span><span class="sc8">=</span><span class="sc6">"Roberto Chofer"</span><span class="sc1">&gt;</span><span class="sc0">Roberto Chofer (Unidad 102)</span><span class="sc1">&lt;/option&gt;</span><span class="sc0">
+                                    </span><span class="sc1">&lt;/select&gt;</span><span class="sc0">
+                                </span><span class="sc1">&lt;/div&gt;</span><span class="sc0">
+                                </span><span class="sc1">&lt;div&gt;</span><span class="sc0">
+                                    </span><span class="sc1">&lt;label</span><span class="sc8"> </span><span class="sc4">className</span><span class="sc8">=</span><span class="sc6">"text-xs text-slate-500"</span><span class="sc1">&gt;</span><span class="sc0">Ruta</span><span class="sc1">&lt;/label&gt;</span><span class="sc0">
+                                    </span><span class="sc1">&lt;select</span><span class="sc8"> </span><span class="sc3">value</span><span class="sc8">={</span><span class="sc4">selectedRoute</span><span class="sc8">} </span><span class="sc3">onChange</span><span class="sc8">={</span><span class="sc4">e</span><span class="sc8"> =</span><span class="sc1">&gt;</span><span class="sc0"> setSelectedRoute(e.target.value)} className="w-full bg-slate-800 border border-slate-700 rounded-xl p-2.5 text-sm text-white"&gt;
+                                        {routes.map(r =&gt; </span><span class="sc1">&lt;option</span><span class="sc8"> </span><span class="sc4">key</span><span class="sc8">={</span><span class="sc4">r.id</span><span class="sc8">} </span><span class="sc3">value</span><span class="sc8">={</span><span class="sc4">r.name</span><span class="sc8">}</span><span class="sc1">&gt;</span><span class="sc0">{r.name}</span><span class="sc1">&lt;/option&gt;</span><span class="sc0">)}
+                                    </span><span class="sc1">&lt;/select&gt;</span><span class="sc0">
+                                </span><span class="sc1">&lt;/div&gt;</span><span class="sc0">
+                                </span><span class="sc1">&lt;button</span><span class="sc8"> </span><span class="sc3">onClick</span><span class="sc8">={</span><span class="sc4">assignRouteToDriver</span><span class="sc8">} </span><span class="sc4">className</span><span class="sc8">=</span><span class="sc6">"w-full bg-blue-600 hover:bg-blue-500 text-white font-bold py-2.5 rounded-xl text-sm transition"</span><span class="sc1">&gt;</span><span class="sc0">Asignar y Notificar</span><span class="sc1">&lt;/button&gt;</span><span class="sc0">
+                            </span><span class="sc1">&lt;/div&gt;</span><span class="sc0">
+                        </span><span class="sc1">&lt;/div&gt;</span><span class="sc0">
+
+                        </span><span class="sc1">&lt;div</span><span class="sc8"> </span><span class="sc4">className</span><span class="sc8">=</span><span class="sc6">"bg-slate-900 border border-slate-800 p-5 rounded-2xl md:col-span-2 flex flex-col"</span><span class="sc1">&gt;</span><span class="sc0">
+                            </span><span class="sc1">&lt;div</span><span class="sc8"> </span><span class="sc4">className</span><span class="sc8">=</span><span class="sc6">"flex justify-between items-center mb-3"</span><span class="sc1">&gt;</span><span class="sc0">
+                                </span><span class="sc1">&lt;h3</span><span class="sc8"> </span><span class="sc4">className</span><span class="sc8">=</span><span class="sc6">"text-sm font-bold text-slate-400 uppercase"</span><span class="sc1">&gt;</span><span class="sc0">Monitoreo Satelital en Vivo</span><span class="sc1">&lt;/h3&gt;</span><span class="sc0">
+                                </span><span class="sc1">&lt;button</span><span class="sc8"> </span><span class="sc3">onClick</span><span class="sc8">={</span><span class="sc4">exportExcel</span><span class="sc8">} </span><span class="sc4">className</span><span class="sc8">=</span><span class="sc6">"bg-emerald-600 hover:bg-emerald-500 text-white px-3 py-1.5 rounded-xl text-xs font-semibold flex items-center space-x-1 transition"</span><span class="sc1">&gt;&lt;span&gt;</span><span class="sc0">Exportar Excel</span><span class="sc1">&lt;/span&gt;&lt;/button&gt;</span><span class="sc0">
+                            </span><span class="sc1">&lt;/div&gt;</span><span class="sc0">
+                            </span><span class="sc1">&lt;div</span><span class="sc8"> </span><span class="sc4">className</span><span class="sc8">=</span><span class="sc6">"flex-1 min-h-[250px] bg-slate-950 rounded-xl overflow-hidden border border-slate-800 relative"</span><span class="sc1">&gt;</span><span class="sc0">
+                                </span><span class="sc1">&lt;div</span><span class="sc8"> </span><span class="sc4">ref</span><span class="sc8">={</span><span class="sc4">mapRef</span><span class="sc8">} </span><span class="sc4">className</span><span class="sc8">=</span><span class="sc6">"w-full h-full"</span><span class="sc1">&gt;&lt;/div&gt;</span><span class="sc0">
+                            </span><span class="sc1">&lt;/div&gt;</span><span class="sc0">
+                        </span><span class="sc1">&lt;/div&gt;</span><span class="sc0">
+                    </span><span class="sc1">&lt;/div&gt;</span><span class="sc0">
+
+                    </span><span class="sc1">&lt;div</span><span class="sc8"> </span><span class="sc4">className</span><span class="sc8">=</span><span class="sc6">"bg-s</span></div></body>
+</html>
